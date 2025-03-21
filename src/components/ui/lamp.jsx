@@ -18,7 +18,7 @@ export function LampDemo() {
         className="relative flex gap-8 mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
         <FactCard
-        top="-9"
+        top="-12"
           left="14"
           heading="37%"
           bgColor="bg-white"
@@ -43,7 +43,7 @@ export function LampDemo() {
         />
         <FactCard
           top="10"
-          left="-40"
+          left="-45"
           heading="3X"
           bgColor="bg-green-500"
           description="ESG High Performers Deliver A Higher Total Shareholder Return"
