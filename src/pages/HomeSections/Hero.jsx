@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import FallingSquares from '../../components/FallingSquares'
 import "../../styles/Hero.css"
+import "../../styles/button.css"
 
 const Hero = () => {
     return (
@@ -18,9 +19,9 @@ const Hero = () => {
                 <p className='text-[1em] -mt-5'>
                     <span className='text-green-600'>95%</span> Accurate Carbon Calculations Trusted by Industry Leaders
                 </p>
-                <div className='flex gap-4 mt-10 font-bold text-[1.2em]'>
-                    <button className='bg-white text-green-600 py-2 px-6 rounded-md shadow-sm shadow-orange-500'>Free Calculator</button>
-                    <button className='bg-green-500 py-2 px-6 rounded-md'>Book Demo</button>
+                <div className='flex mt-10 gap-8 font-bold text-[1.2em]'>
+                    <button className='btn rounded-md shadow-sm shadow-orange-500'>Free Calculator</button>
+                    <button className='btn rounded-md shadow-sm shadow-green-500'>Book Demo</button>
                 </div>
             </div>
             <FallingSquares />
