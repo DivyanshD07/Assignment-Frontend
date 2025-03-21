@@ -8,7 +8,7 @@ const FallingSquares = () => {
             e.setAttribute('class', 'square');
             document.body.appendChild(e);
 
-            e.style.left = Math.random() * 94 + 'vw';
+            e.style.left = Math.random() * 92 + 'vw';
 
             setTimeout(() => {
                 document.body.removeChild(e);
